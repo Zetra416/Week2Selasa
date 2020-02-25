@@ -1,5 +1,5 @@
 
-//var nama;
+var nama;
 var peran;
 
 var nama1 = "Thomas";
@@ -10,10 +10,8 @@ var peran1= "Ksatria";
 var peran2= "Tabib";
 var peran3= "Penyihir";
 
-var nama =window.prompt();
-console.log(nama);
-
-/*nama = nama1;
+//ganti nama atau peran dengan nama1,2,3 dan peran1,2 ,3
+nama = nama1;
 peran = peran3;
 console.log("Nama harus diisi!");
 if (nama === nama1) {
@@ -28,4 +26,4 @@ if (nama === nama1) {
       else {
         console.log("Halo " + peran + " " + nama + ", ciptakan keajaiban yang membantu kemenanganmu! ");
       }
-}*/
+}
